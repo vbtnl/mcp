@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.vbtnl/vbtnl",
+  "title": "vbtnl",
+  "description": "MCP hosting for AI agents: Claude or Codex writes the code, runs it and sends a live link.",
+  "version": "1.0.0",
+  "websiteUrl": "https://vbtnl.com",
+  "icons": [
+    { "src": "https://vbtnl.com/icon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] },
+    { "src": "https://vbtnl.com/apple-icon", "mimeType": "image/png", "sizes": ["180x180"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://api.vbtnl.com/mcp" }
+  ]
+}
