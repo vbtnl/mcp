@@ -10,7 +10,7 @@ https://api.vbtnl.com/mcp
 
 - Remote server, Streamable HTTP transport.
 - Sign-in with OAuth in the browser. There is no token to copy.
-- Listed in the official MCP Registry as `com.vbtnl/vbtnl`.
+- Listed in the [Claude connector directory](https://claude.ai/directory/vbtnl) and in the official MCP Registry as `com.vbtnl/vbtnl`.
 
 This repository holds the connection details and the registry entry. The server itself runs on vbtnl, so there is nothing to install or run locally.
 
@@ -28,7 +28,9 @@ claude mcp add --transport http vbtnl https://api.vbtnl.com/mcp
 
 ### claude.ai and Claude Desktop
 
-Settings → Connectors → Add custom connector. Name it `vbtnl`, paste `https://api.vbtnl.com/mcp` and press Connect.
+vbtnl is in the Claude connector directory: open [claude.ai/directory/vbtnl](https://claude.ai/directory/vbtnl) and press **Connect**.
+
+Or add it by hand: Settings → Connectors → Add custom connector. Name it `vbtnl`, paste `https://api.vbtnl.com/mcp` and press Connect.
 
 ### Codex
 
