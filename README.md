@@ -26,17 +26,23 @@ You need a vbtnl account. The free plan is enough to start: [app.vbtnl.com/login
 claude mcp add --transport http vbtnl https://api.vbtnl.com/mcp
 ```
 
+Full guide: [docs/install-claude-code.md](docs/install-claude-code.md).
+
 ### claude.ai and Claude Desktop
 
 vbtnl is in the Claude connector directory: open [claude.ai/directory/vbtnl](https://claude.ai/directory/vbtnl) and press **Connect**.
 
-Or add it by hand: Settings → Connectors → Add custom connector. Name it `vbtnl`, paste `https://api.vbtnl.com/mcp` and press Connect.
+Or add it by hand: open Customize (or Plugins) in the sidebar, then Connectors → Add → Add custom connector. Name it `vbtnl`, paste `https://api.vbtnl.com/mcp` and press Connect.
+
+Full guide: [docs/install-claude-desktop.md](docs/install-claude-desktop.md).
 
 ### Codex
 
 ```bash
 codex mcp add vbtnl --url https://api.vbtnl.com/mcp
 ```
+
+Full guide: [docs/install-codex.md](docs/install-codex.md).
 
 ### Cursor
 
@@ -54,9 +60,13 @@ Add this to `~/.cursor/mcp.json` (all projects) or `.cursor/mcp.json` (one proje
 
 The file holds only the address, so it is safe to commit.
 
-### ChatGPT (developer mode)
+Full guide: [docs/install-cursor.md](docs/install-cursor.md).
 
-Settings → Connectors → turn on Developer mode → Create. Name it `vbtnl`, paste `https://api.vbtnl.com/mcp`, set Authentication to OAuth and save.
+### ChatGPT
+
+Open Plugins (`chatgpt.com/plugins`) → Add → Add custom MCP server. Name it `vbtnl`, paste `https://api.vbtnl.com/mcp`, leave Authentication on OAuth and create it. The old developer mode switch is gone and not needed.
+
+Full guide: [docs/install-chatgpt.md](docs/install-chatgpt.md).
 
 ### Other clients
 
